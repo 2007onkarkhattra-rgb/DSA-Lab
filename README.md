@@ -132,3 +132,30 @@ Best Case: O(n log n)
 Average Case: O(n log n)
 Worst Case: O(n^2) (when the smallest or largest element is always chosen as pivot)
 Space Complexity: O(log n) (due to recursive stack calls)
+
+10. Radix Sort
+Question Description: Implement Radix Sort in C to sort an array of non-negative
+ integers by processing individual digit places using Counting Sort.
+
+Test Cases:
+Test Case 1: Input [170, 45, 75, 90, 802, 24, 2, 66]
+Expected Output: 2 24 45 66 75 90 170 802
+
+Time Complexity:
+Best/Average/Worst Case: O(d * (n + b)) where d is the number of digits and b is the base (10 for decimal).
+Space Complexity: O(n + b)
+
+ Heap Sort
+Question Description: Implement Heap Sort to sort an array in ascending order using a max heap. 
+The algorithm builds a max heap, repeatedly swaps the root with the last element, and restores the heap property until the array is sorted.
+
+Test Cases:
+Test Case 1: Input [1, 9, 8, 6, 5, 4, 3, 2, 0]
+Expected Output: 0 1 2 3 4 5 6 8 9   
+Test Case 2: Input [4, 1, 3, 2]
+Expected Output: 1 2 3 4   
+Test Case 3: Input [5, 5, 2, 1, 2]
+Expected Output: 1 2 2 5 5  
+
+Time Complexity: Build Heap: O(n)  
+                 Heap Sort: O(n log n)   
