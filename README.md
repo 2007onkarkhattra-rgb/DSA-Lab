@@ -224,3 +224,41 @@ Expected Post-order Output: 2 3 1
 Time Complexity:
 Traversal: O(n) (where n is the number of nodes)
 Space Complexity: O(h) (where h is the height of the tree due to the call stack)
+
+17. Binary Search Tree
+Question Description: Implement a Binary Search Tree data structure in C supporting node insertion
+ and in-order traversal (which produces elements in sorted order).
+
+Test Cases:
+Test Case 1: Insert values [50, 30, 20, 40, 70, 60, 80]
+Expected In-order Output: 20 30 40 50 60 70 80
+
+Time Complexity:
+Search / Insertion: O(h) where h is height (O(log n) for balanced, O(n) for skewed tree)
+Space Complexity: O(n)
+
+18. AVL Trees
+Question Description: Implement a self-balancing AVL Tree in C with insertion logic
+ and automatic rotation handling to maintain balance, verified via in-order traversal.
+
+Test Cases:
+Test Case 1: Insert values [10, 20, 30, 40, 50, 25]
+Expected In-order Output: 10 20 25 30 40 50
+
+Time Complexity:
+Search / Insertion / Deletion: O(log n)
+Space Complexity: O(n)
+
+19. Parenthesis Matching
+Question Description: Implement Parenthesis Matching in C using a
+ Stack to verify if expression brackets ((), {}, []) are balanced and properly nested.
+
+Test Cases:
+Test Case 1: Input "{[()()]}"
+Expected Output: Balanced (Valid Expression)
+Test Case 2: Input "([)]"
+Expected Output: Not Balanced (Invalid Expression)
+
+Time Complexity:
+Time Complexity: O(n) (where n is the length of the string)
+Space Complexity: O(n)
