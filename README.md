@@ -60,6 +60,20 @@ Expected Output: Top element is 30.
 Test Case 2: Pop an element from the stack.
 Expected Output: Popped element 30, new top is 20.
 
+5. Queue with Array
+Question Description: Implement a Queue data structure using a static array in C.
+Support core operations: enqueue (insert at rear), dequeue (remove from front), and check queue status.
+
+Test Cases:
+Test Case 1: Enqueue elements [10, 20, 30], then Dequeue once.
+Expected Output: Dequeued element is 10, next front is 20.
+Test Case 2: Enqueue until queue is full.
+Expected Output: Queue Overflow message.
+
+Time Complexity:
+Enqueue: O(1)
+Dequeue: O(1)
+Space Complexity: O(n) (where n is maximum capacity of the array)
 Time Complexity:
 Push: O(1)
 Pop: O(1)
