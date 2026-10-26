@@ -92,3 +92,16 @@ Time Complexity:
 Enqueue: O(1)
 Dequeue: O(1)
 Space Complexity: O(n) (where n is the capacity of the array)
+
+7. Queue using Linked List
+Question Description: Implement a Queue data structure using a Singly Linked List in C.
+ Support dynamic enqueue operations at the rear and dequeue operations from the front.
+
+Test Cases:
+Test Case 1: Enqueue elements [10, 20, 30], then dequeue twice.
+Expected Output: Dequeued elements are 10 and 20, new front is 30.
+
+Time Complexity:
+Enqueue: O(1)
+Dequeue: O(1)
+Space Complexity: O(n) (where n is the number of elements in the queue)
