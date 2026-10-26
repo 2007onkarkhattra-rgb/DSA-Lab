@@ -173,3 +173,16 @@ Time Complexity:
 Best / Average Case: O(n + k) (where n is the number of elements and k is the number of buckets)
 Worst Case: O(n^2) (when all elements fall into the same bucket)
 Space Complexity: O(n + k)
+
+13. k smallest element (partitioning)
+Question Description: Implement QuickSelect in C using partitioning to find the k-th smallest
+element in an unsorted array without fully sorting it.
+
+Test Cases:
+Test Case 1: Input [7, 10, 4, 3, 20, 15], k = 3
+Expected Output: 3rd smallest element is 7
+
+Time Complexity:
+Average Case: O(n)
+Worst Case: O(n^2) (when bad pivots are chosen)
+Space Complexity: O(1) (iterative implementation) or O(log n) (recursive stack)
