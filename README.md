@@ -210,3 +210,17 @@ Expected Output: 7 sequential disk movements ending with all disks on rod 'C'.
 Time Complexity:
 Time Complexity: O(2^n)
 Space Complexity: O(n) (due to recursive call stack)
+
+16. Binary Trees
+Question Description: Implement a Binary Tree data structure in C along with
+ recursive traversal methods (Pre-order, In-order, and Post-order).
+
+Test Cases:
+Test Case 1: Create a tree with root 1, left child 2, and right child 3.
+Expected Pre-order Output: 1 2 3
+Expected In-order Output: 2 1 3
+Expected Post-order Output: 2 3 1
+
+Time Complexity:
+Traversal: O(n) (where n is the number of nodes)
+Space Complexity: O(h) (where h is the height of the tree due to the call stack)
