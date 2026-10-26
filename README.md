@@ -79,3 +79,16 @@ Push: O(1)
 Pop: O(1)
 Peek: O(1)
 Space Complexity: O(n) (where n is the number of elements in the stack)
+
+6. Circular Queue with Array
+Question Description: Implement a Circular Queue data structure using a fixed-size array in C.
+ Support core operations like enqueue, dequeue, and wrap-around handling to reuse empty spaces.
+
+Test Cases:
+Test Case 1: Enqueue [10, 20, 30], dequeue twice, then enqueue [40, 50, 60] to test wrap-around.
+Expected Output: Queue successfully wraps around and utilizes the freed slots.
+
+Time Complexity:
+Enqueue: O(1)
+Dequeue: O(1)
+Space Complexity: O(n) (where n is the capacity of the array)
