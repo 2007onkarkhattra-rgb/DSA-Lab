@@ -119,3 +119,16 @@ Best Case: O(n log n)
 Average Case: O(n log n)
 Worst Case: O(n log n)
 Space Complexity: O(n)
+
+9. Quick Sort
+Question Description: Implement Quick Sort in C using the partitioning method
+to sort an array in ascending order.
+Test Cases:
+Test Case 1: Input [10, 7, 8, 9, 1, 5]
+Expected Output: 1 5 7 8 9 10
+
+Time Complexity:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n^2) (when the smallest or largest element is always chosen as pivot)
+Space Complexity: O(log n) (due to recursive stack calls)
