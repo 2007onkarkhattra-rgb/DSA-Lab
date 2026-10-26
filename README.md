@@ -157,5 +157,19 @@ Expected Output: 1 2 3 4
 Test Case 3: Input [5, 5, 2, 1, 2]
 Expected Output: 1 2 2 5 5  
 
-Time Complexity: Build Heap: O(n)  
-                 Heap Sort: O(n log n)   
+Time Complexity:
+Build Heap: O(n)  
+Heap Sort: O(n log n)  
+
+12. Bucket Sort
+Question Description: Implement Bucket Sort in C to sort an array of floating-point numbers by
+ distributing elements into buckets, sorting individual buckets, and gathering them back.
+
+Test Cases:
+Test Case 1: Input [0.89, 0.56, 0.65, 0.12, 0.34, 0.23, 0.45]
+Expected Output: 0.12 0.23 0.34 0.45 0.56 0.65 0.89
+
+Time Complexity:
+Best / Average Case: O(n + k) (where n is the number of elements and k is the number of buckets)
+Worst Case: O(n^2) (when all elements fall into the same bucket)
+Space Complexity: O(n + k)
