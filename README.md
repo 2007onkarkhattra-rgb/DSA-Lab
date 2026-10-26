@@ -186,3 +186,27 @@ Time Complexity:
 Average Case: O(n)
 Worst Case: O(n^2) (when bad pivots are chosen)
 Space Complexity: O(1) (iterative implementation) or O(log n) (recursive stack)
+
+14. Bin Sort
+Question Description: Implement Bin Sort (Counting Sort style) in C to sort an array of
+non-negative integers within a specified range by distributing them into indexed bins.
+
+Test Cases:
+Test Case 1: Input [4, 2, 2, 8, 3, 3, 1]
+Expected Output: 1 2 2 3 3 4 8
+
+Time Complexity:
+Best / Average / Worst Case: O(n + k) (where n is the number of elements and k is the range of input values)
+Space Complexity: O(n + k)
+
+15. Tower of Hanoi
+Question Description: Implement a recursive solution in C to solve the
+Tower of Hanoi puzzle for n disks, printing the sequence of moves required.
+
+Test Cases:
+Test Case 1: 3 disks from rod 'A' to rod 'C' using rod 'B'
+Expected Output: 7 sequential disk movements ending with all disks on rod 'C'.
+
+Time Complexity:
+Time Complexity: O(2^n)
+Space Complexity: O(n) (due to recursive call stack)
