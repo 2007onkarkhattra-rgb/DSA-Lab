@@ -105,3 +105,17 @@ Time Complexity:
 Enqueue: O(1)
 Dequeue: O(1)
 Space Complexity: O(n) (where n is the number of elements in the queue)
+
+8. Merge Sort
+Question Description: Implement Merge Sort in C to sort an
+array in ascending order using the divide and conquer strategy.
+
+Test Cases:
+Test Case 1: Input [12, 11, 13, 5, 6, 7]
+Expected Output: 5 6 7 11 12 13
+
+Time Complexity:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
+Space Complexity: O(n)
